@@ -4,16 +4,16 @@
 
 #define BASE 0
 #define NAV  1
-#define SYM  2
-#define ADJ  3
+#define NUM  2
+#define FUN  3
 
 / {
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
         tri_layer {
-            if-layers = <3 2>;
-            then-layer = <4>;
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 
@@ -61,12 +61,10 @@
         };
 
         num {
-            display-name = "SYM";
+            display-name = "NUM";
             bindings = <
 &trans  &kp LEFT_BRACKET  &kp N7  &kp N8  &kp N9  &kp RIGHT_BRACKET  &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC  &kp LCTRL  &kp LPAR  &kp N4  &kp N5  &kp N6  &kp RPAR  &kp LA(LC(LG(LEFT_SHIFT)))  &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LEFT_ALT  &trans  &kp GRAVE  &trans  &kp PLUS  &kp N1  &kp N2  &kp N3  &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &kp TILDE  &kp LGUI  &kp N0  &kp SPACE  &kp RET  &kp  &kp RALT
             >;
-
-            label = "NUM";
         };
 
         fun {
