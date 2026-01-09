@@ -70,7 +70,7 @@
         mouse {
             display-name = "MOUS";
             bindings = <
-&kp LG(TAB)  &trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp N0  &kp BSPC  &trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LA(LC(LG(LEFT_SHIFT)))  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &caps_word  &trans  &bt BT_CLR  &studio_unlock  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans  &trans  &kp LG(LBKT)  &kp LG(LS(LBKT))  &kp LG(LS(RBKT))  &kp LG(RBKT)  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK
+&kp LG(TAB)  &trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp N0  &kp BSPC  &trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LA(LC(LG(LEFT_SHIFT)))  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &caps_word  &trans  &bt BT_CLR  &studio_unlock  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans  &trans  &kp LG(LBKT)  &kp LG(LS(LBKT))  &kp LG(LS(RBKT))  &kp LG(RBKT)  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK
             >;
 
             label = "MOUS";
@@ -108,7 +108,7 @@
 
         buttons {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LA(LC(LG(LEFT_SHIFT)))  &kp LA(LC(LG(LEFT_SHIFT)))  &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans  &trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LS(LG(Z))  &kp LS(LG(Z))  &kp LG(V)  &kp LG(C)  &kp LG(X)  &kp LG(Z)  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp LCLK  &mkp MCLK  &mkp RCLK
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LA(LC(LG(LEFT_SHIFT)))  &kp LA(LC(LG(LEFT_SHIFT)))  &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans  &trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LS(LG(Z))  &kp LS(LG(Z))  &kp LG(V)  &kp LG(C)  &kp LG(X)  &kp LG(Z)  &trans  &mkp MCLK  &mkp RCLK  &mkp LCLK  &mkp LCLK  &mkp RCLK  &mkp MCLK
             >;
 
             label = "BTNS";
